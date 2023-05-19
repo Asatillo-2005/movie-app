@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #100E19;
+}
+.container nav {
+  min-width: 100%;
+  min-height: 10vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+.container nav ul {
+  width: 90%;
+  height: 10vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20%;
+  border: 1px solid #36353E;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.container nav ul li {
+  color: #7D7C82;
+  transition: 0.4s linear;
+}
+.container nav ul li:hover {
+  color: white;
+}
+
+.user {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+  background-color: transparent;
+}
+.user .users {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url(https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user p {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.body {
+  min-width: calc(100% - 200px);
+  min-height: 100vh;
+  background-color: #100E19;
+}
+.body h1 {
+  width: 100%;
+  height: 10vh;
+  color: white;
+  text-align: center;
+  background-color: transparent;
+}
+
+#list {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 3%;
+  gap: 10px 20px;
+}
+#list li {
+  transition: 0.5s linear;
+}
+#list li:hover {
+  transform: translateY(-5%);
+}
+#list h3 {
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#list p {
+  position: flex;
+  top: 70%;
+  width: 50px;
+  height: 20px;
+  color: violet;
+}/*# sourceMappingURL=home.css.map */
